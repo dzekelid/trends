@@ -1,0 +1,166 @@
+{
+	"name": "Streadata.io API Gallery - Trends",
+	"description": "This is a repository of trends APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/trends.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://trends.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "trendspottr",
+			"x-api-slug": "trendspottr",
+			"description": "TrendSpottr: Predictive trend intelligence for brands, marketers & PR pros. Discover emerging trends, viral content & key influencers for any topic",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1184-trendspottr.jpg",
+			"humanURL": "http://trendspottr.com/api/v1.1/",
+			"baseURL": "https:///",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/trendspottr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Regator",
+			"x-api-slug": "regator",
+			"description": "Regator is a selective blog directory and search engine. Its the easiest way to find, share, and read quality posts from hand-selected blogs in over 500 topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1357-regator-semantic.jpg",
+			"humanURL": "http://platform.regator.com/api/",
+			"baseURL": "https:///",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/regator/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Giphy",
+			"x-api-slug": "giphy",
+			"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
+			"humanURL": "https://giphy.com",
+			"baseURL": "http://api.giphy.com//v1",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/giphy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aylien",
+			"x-api-slug": "aylien",
+			"description": "Text Analysis API | Natural Language Processing",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20034-aylien.jpg",
+			"humanURL": "http://aylien.com/",
+			"baseURL": "https://api.newsapi.aylien.com//api/v1",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/aylien/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Trends",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/attom/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Trends",
+	"include": [
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "trendspottr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/trendspottr/apis.yaml"
+		},
+		{
+			"name": "Regator",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/regator/apis.yaml"
+		},
+		{
+			"name": "Giphy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/giphy/apis.yaml"
+		},
+		{
+			"name": "Aylien",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/aylien/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trends/master/_listings/attom/apis.yaml"
+		}
+	]
+}
